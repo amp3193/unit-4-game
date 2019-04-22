@@ -35,6 +35,11 @@ body {
     padding-bottom: 20px;
 }
 
+#winMessage {
+    font-size: 40px;
+    font-weight: bolder;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
 
 
 
