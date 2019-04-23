@@ -16,16 +16,22 @@ body {
 } 
 
 #answer {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     padding-left: 0px;
-    padding-top: 20px;
 }
 
 #total {
     padding-top: 30px;
+    padding-left: 30px;
+    font-weight: bolder;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+#score {
+    padding-top: 30px;
     padding-bottom: 90px;
-    padding-left: 0px;
+    padding-left: 30px;
     font-weight: bolder;
     font-family: 'Nothing You Could Do', cursive;
 }
@@ -35,13 +41,29 @@ body {
     padding-bottom: 20px;
 }
 
-#winMessage {
-    font-size: 40px;
+#wins, #losses {
     font-weight: bolder;
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    font-size: 20px;
 }
 
+@media screen and (min-width: 801px) and (max-width: 1320px) {
 
+    .row {
+    padding-left: 100px; 
+    }
+
+}
+
+@media screen and (min-width: 650px) and (max-width: 800px) {
+    
+    #title {
+        padding-top: 130px;
+    }
+
+    .row {
+        padding-left: 60px;
+    } 
+}
 
 
 
