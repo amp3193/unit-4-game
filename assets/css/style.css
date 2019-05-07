@@ -1,0 +1,71 @@
+body {
+    background-image: url('../images/parchment.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+#blue, #pink, #diamond, #yellow {
+    height: 170px;
+    width: 150px;
+}
+
+#directions, #stats, #title {
+    font-weight: bold;
+    font-family: 'Nothing You Could Do', cursive;
+} 
+
+#answer {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 0px;
+}
+
+#total {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: bolder;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+#score {
+    padding-top: 30px;
+    padding-bottom: 90px;
+    padding-left: 30px;
+    font-weight: bolder;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+#title {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+#wins, #losses {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 801px) and (max-width: 1320px) {
+
+    .row {
+    padding-left: 100px; 
+    }
+
+}
+
+@media screen and (min-width: 650px) and (max-width: 800px) {
+    
+    #title {
+        padding-top: 130px;
+    }
+
+    .row {
+        padding-left: 60px;
+    } 
+}
+
+
+
+
+
